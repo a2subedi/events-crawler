@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  db:
+    build: ./db/
+
+  app :
+    build: ./src/
+    restart: on-failure
+    depends_on:
+      - db
+    links:
+      - db
+

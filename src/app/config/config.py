@@ -1,0 +1,5 @@
+db_name = 'eventsdb'
+db_user = 'user'
+db_pass = 'locked'
+db_host = 'db'
+db_port = '5432'
